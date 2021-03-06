@@ -22,7 +22,7 @@
   border-bottom: 1px solid black;
   box-sizing: border-box;
   height: 5vh;
-  opacity: .85;
+  opacity: .9;
 }
 
 .nav a {
@@ -56,17 +56,19 @@
 }
 
 .about-mmp {
+  box-sizing: border-box;
   height: 90%;
-  width: 90%;
+  width: 100%;
   padding-top: 20px;
-  padding-left: 20px;
   background-image: linear-gradient(to bottom right, rgb(235, 235, 235, 1), rgb(255, 255, 255, .85));
-  clip-path: polygon(0 0, 100% 0, 60% 90%, 0 100%);
+  clip-path: polygon(0 0, 80% 0, 60% 80%, 0 90%);
 }
 
 .about-mmp-info {
-  width: 90%;
+  box-sizing: border-box;
+  width: 100%;
   padding-top: 20px;
+  padding-left: 20px;
 }
 
 .title {
@@ -76,28 +78,29 @@
 
 .welcome-message {
   font-size: 20px;
+  width: 100%;
 }
 
 .background-info {
   line-height: 150%;
   font-size: 18px;
-  max-width: 80%;
+  max-width: 70%;
 }
 
 .info-2021 {
   line-height: 150%;
   font-size: 18px;
-  max-width: 70%;
+  max-width: 60%;
 }
 
 .past-event-info {
   line-height: 150%;
   font-size: 18px;
-  max-width: 60%;
+  max-width: 50%;
 }
 
 .sponsors {
   line-height: 150%;
   font-size: 15px;
-  max-width: 50%;
+  max-width: 40%;
 }
