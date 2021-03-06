@@ -21,19 +21,18 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: #00274C;
   border-bottom: 1px solid black;
   box-sizing: border-box;
-  height: 3.5vh;
+  height: 5vh;
+  opacity: .85;
 }
 
 .nav a {
-  margin-top: .4vh;
-  margin-bottom: .4vh;
   font-family: 'IBM Plex Serif';
   font-size: 20px;
   color: rgb(240, 240, 240);
-  padding: .4vh;
   text-decoration: none;
 }
 
