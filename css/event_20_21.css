@@ -9,7 +9,7 @@
   min-width: 1200px;
   position: relative;
   background-image:
-    linear-gradient(to right, rgb(255, 203, 5, .25), rgb(255, 203, 5, .45)),
+    linear-gradient(to right, rgb(255, 203, 5, .25), rgb(255, 203, 5, .35)),
     url("../images/angell_hall_side_right_2.jpg");
   background-repeat: no-repeat;
   background-size: cover;

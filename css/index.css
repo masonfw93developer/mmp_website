@@ -9,7 +9,7 @@
   min-width: 700px;
   position: relative;
   background-image:
-    linear-gradient(to right, rgb(70, 70, 70, .85), rgb(20, 20, 20, .85)),
+    linear-gradient(to right, rgb(255, 203, 5, .25), rgb(255, 203, 5, .35)),
     url("../images/angell_hall_bw.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,14 +51,15 @@
   transform: scaleX(1);
 }
 
-
 .main-content {
   position: absolute;
-  top: 40%;
+  padding: 10px;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
+  background-image: linear-gradient(to right, rgb(255, 245, 200, .85), rgb(255, 245, 200, .85));
 }
 
 .logo {
@@ -79,7 +80,7 @@
   font-weight: 700;
   letter-spacing: 2px;
   margin-left: 2.5px;
-  color: #FFCB05;
+  color: black;
   animation-name: moveInBottom;
   animation-duration: 1.5s;
   min-width: 300px;
@@ -107,14 +108,16 @@
 
 .primary-btn:link,
 .primary-btn:visited {
-  margin-top: 20px;
+  margin: 20px;
   padding: 8px;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
   border-radius: 100px;
+  border: 1px solid black;
   font-size: 15px;
+  box-shadow: 7px 7px 5px rgba(0,0,0,.2);
   animation-name: moveInBottomButton;
   animation-duration: 2.5s;
 }

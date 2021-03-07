@@ -9,7 +9,7 @@
   min-width: 900px;
   position: relative;
   background-image:
-    linear-gradient(to right, rgb(255, 203, 5, .25), rgb(255, 203, 5, .45)),
+    linear-gradient(to right, rgb(255, 203, 5, .25), rgb(255, 203, 5, .35)),
     url("../images/tanner_library.jpg");
   background-repeat: no-repeat;
   background-size: cover;
