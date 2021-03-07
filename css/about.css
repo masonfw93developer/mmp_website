@@ -13,7 +13,7 @@
     url("../images/tanner_library.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
 }
 
 
@@ -52,7 +52,7 @@
 }
 
 
-.about-mmp {
+.about-mmp-main-content {
   box-sizing: border-box;
   padding-top: 20px;
   min-height: 700px;
