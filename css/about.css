@@ -5,6 +5,9 @@
 
 .about-mmp-container {
   height: 100vh;
+  min-height: 700px;
+  min-width: 700px;
+  position: relative;
   background-image:
     linear-gradient(to right, rgb(255, 203, 5, .25), rgb(255, 203, 5, .45)),
     url("../images/tanner_library.jpg");
@@ -13,16 +16,16 @@
   background-position: center;
 }
 
+
 .nav {
   width: 100%;
+  height: 50px;
+  opacity: .9;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #00274C;
   border-bottom: 1px solid black;
-  box-sizing: border-box;
-  height: 5vh;
-  opacity: .9;
 }
 
 .nav a {
@@ -31,7 +34,6 @@
   color: rgb(240, 240, 240);
   text-decoration: none;
 }
-
 
 .nav a:after {
   display: block;
@@ -49,24 +51,19 @@
   transform: scaleX(1);
 }
 
-.about-page {
-  display: flex;
-  height: 95vh;
-  width: 100%;
-}
 
 .about-mmp {
   box-sizing: border-box;
-  height: 90%;
-  width: 100%;
   padding-top: 20px;
+  height: 750px;
+  width: 1100px;
   background-image: linear-gradient(to bottom right, rgb(235, 235, 235, 1), rgb(255, 255, 255, .85));
-  clip-path: polygon(0 0, 80% 0, 60% 80%, 0 90%);
+  clip-path: polygon(0 0, 100% 0, 70% 80%, 0 90%);
 }
 
 .about-mmp-info {
   box-sizing: border-box;
-  width: 100%;
+  width: 1100px;
   padding-top: 20px;
   padding-left: 20px;
 }
