@@ -56,7 +56,9 @@
   box-sizing: border-box;
   padding-top: 20px;
   height: 750px;
-  width: 1100px;
+  width: 90%;
+  min-width: 900px;
+  max-width: 1100px;
   background-image: linear-gradient(to bottom right, rgb(235, 235, 235, 1), rgb(255, 255, 255, .85));
   clip-path: polygon(0 0, 100% 0, 70% 80%, 0 90%);
 }
