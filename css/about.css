@@ -47,6 +47,10 @@ html {
   display: flex;
 }
 
+.michigan-m-nav {
+  height: 100%;
+}
+
 .title-nav {
   font-size: 16px;
   font-weight: 600;
