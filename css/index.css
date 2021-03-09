@@ -34,7 +34,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: linear-gradient(to bottom, rgb(240, 240, 240, 1), rgb(240, 240, 240, .9));
+  background-image: linear-gradient(to bottom right, rgb(245, 245, 245, 1), rgb(245, 245, 245, 1));
   border-bottom: 1px solid rgb(210, 210, 210);
 }
 
