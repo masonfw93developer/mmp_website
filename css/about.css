@@ -35,7 +35,7 @@ html {
   justify-content: space-around;
   align-items: center;
   background-image: linear-gradient(to bottom right, rgb(245, 245, 245, 1), rgb(245, 245, 245, 1));
-  border-bottom: 1px solid rgb(210, 210, 210);
+  border-bottom: 7px double rgb(150, 150, 150);
 }
 
 .nav-logo {
@@ -133,6 +133,12 @@ html {
 
 .main-info {
   padding-top: 30px;
+}
+
+.main-info h2{
+  min-width: 400px;
+  width: 85%;
+  text-align: left;
 }
 
 .about-first {
