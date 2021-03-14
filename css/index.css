@@ -213,7 +213,7 @@ body {
 .contact-hero {
   height: 85vh;
   background-image:
-    linear-gradient(to top right, rgb(255, 203, 5, .25), rgb(255, 203, 5, .45)),
+    linear-gradient(to top right, rgb(255, 203, 5, .15), rgb(255, 203, 5, .45)),
     url("../images/angell_hall_sign.jpg");
   background-repeat: no-repeat;
   background-size: cover;
