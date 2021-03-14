@@ -29,6 +29,7 @@ body {
 
 .main-hero {
   height: 100vh;
+  min-height: 950px;
   font-family: 'IBM Plex Serif';
   color: rgb(var(--color-text-secondary));
   background-image:
@@ -56,9 +57,12 @@ body {
 
 .nav-logo {
   height: 100%;
+  width: fit-content;
+  min-width: 170px;
   display: flex;
   text-decoration: none;
   align-items: center;
+  margin-left: 10px;
 }
 
 .michigan-m-nav {
@@ -118,13 +122,18 @@ body {
   color: rgb(var(--color-text-title));
   font-family: 'Lato', sans-serif;
   position: absolute;
+  width: fit-content;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .home-container h1 {
   font-size: 350%;
+  text-align: center;
   padding-bottom: 6px;
   animation-name: moveInTop;
   animation-duration: 1.5s;
@@ -176,6 +185,7 @@ body {
 
 .about-hero {
   height: 70vh;
+  min-height: 675px;
 }
 
 .about-hero h3 {
@@ -195,7 +205,7 @@ body {
 
 .about-column {
   height: 100%;
-  width: 25%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -208,7 +218,8 @@ body {
 
 .about-column p {
   padding-top: 50px;
-  padding-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: justify;
   line-height: 200%;
 }
@@ -220,12 +231,13 @@ body {
 
 .contact-hero {
   height: 85vh;
+  min-height: 825px;
   background-image:
     linear-gradient(to top right, rgb(var(--color-background-secondary), .15), rgb(var(--color-background-secondary), .45)),
     url("../images/angell_hall_sign.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
   border-bottom: 2px solid black;
 }
 
@@ -268,8 +280,8 @@ body {
 /* --------------- */
 
 .coordinators {
-  width: 35%;
-  padding-top: 20px;
+  width: 33%;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -283,12 +295,13 @@ body {
 }
 
 .coordinator img {
-  height: 75px;
+  height: 70px;
   border-radius: 50%;
   border: 2px solid rgb(var(--color-text-secondary));
 }
 
 .coordinator p {
+  font-size: 80%;
   padding-left: 10px;
   color: rgb(var(--color-text-secondary));
 }
@@ -305,6 +318,7 @@ body {
   width: 90%;
   margin: auto;
   padding-top: 20px;
+  padding-bottom: 10px;
   text-align: center;
   display: flex;
   flex-direction: column;
