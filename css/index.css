@@ -1,8 +1,14 @@
 :root {
-  --color-umich-blue: #00274C;
-  --color-umich-maize: #FFCB05;
-  --color-text-primary: #000000;
-  --color-text-grey: rgb(240, 240, 240)
+  /*
+  Umich-blue: 0, 39, 76;
+  Umich-yellow: 255, 203, 5;
+  */
+
+  --color-background-primary: 0, 39, 76;
+  --color-background-secondary: 255, 203, 5;
+  --color-text-primary: 0, 0, 0;
+  --color-text-secondary: 240, 240, 240;
+  --color-text-title: 255, 203, 5;
 }
 
 * {
@@ -24,9 +30,9 @@ body {
 .main-hero {
   height: 100vh;
   font-family: 'IBM Plex Serif';
-  color: var(--color-text-grey);
+  color: rgb(var(--color-text-secondary));
   background-image:
-    linear-gradient(to top right, rgb(20, 20, 20, .75), rgb(30, 30, 30, .92)),
+    linear-gradient(to top right, rgb(var(--color-background-primary), .75), rgb(var(--color-background-primary), .92)),
     url("../images/angell_hall_bw.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,7 +50,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px solid rgb(145, 145, 145, 1);
+  border-bottom: 1px solid rgb(var(--color-text-secondary), 1);
   background-color: rgba(20, 20, 20, .3);
 }
 
@@ -62,11 +68,13 @@ body {
 .nav-title {
   font-size: 70%;
   font-weight: 600;
-  color: var(--color-text-grey);
+  color: rgb(var(--color-text-secondary));
   margin-left: 5px;
 }
 
 .nav-links {
+  font-size: 95%;
+  letter-spacing: 1px;
   position: relative;
   height: 100%;
   width: 80%;
@@ -76,9 +84,9 @@ body {
 }
 
 .nav-link {
-  color: var(--color-text-grey);
+  color: rgb(var(--color-text-secondary));
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 400;
   margin-right: 45px;
   padding-bottom: 15px;
   position: relative;
@@ -91,7 +99,7 @@ body {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: var(--color-text-grey);
+  background-color: rgb(var(--color-text-secondary));
   transition: transform .5s;
   transform: scaleX(0);
   transform-origin: 100%;
@@ -107,7 +115,7 @@ body {
 /* ---------------- */
 
 .home-container {
-  color: var(--color-text-grey);
+  color: rgb(var(--color-text-title));
   font-family: 'Lato', sans-serif;
   position: absolute;
   top: 40%;
@@ -123,6 +131,7 @@ body {
 }
 
 .home-container h6 {
+  color: rgb(var(--color-text-secondary));
   font-size: 80%;
   font-weight: 400;
   text-align: right;
@@ -132,7 +141,7 @@ body {
 
 .home-container h6 a:link,
 .home-container h6 a:visited {
-  color: var(--color-text-grey);
+  color: rgb(var(--color-text-secondary));
   text-decoration: none;
 }
 
@@ -167,11 +176,10 @@ body {
 
 .about-hero {
   height: 70vh;
-  background-image: linear-gradient(to bottom right, rgb(255, 255, 255, .75), rgb(255, 255, 255, .75));
 }
 
 .about-hero h3 {
-  color: rgb(40, 40, 40);
+  color: rgb(var(--color-text-primary));
   font-size: 200%;
   text-align: center;
   width: 100%;
@@ -195,7 +203,7 @@ body {
 
 .about-column ion-icon {
   font-size: 450%;
-  color: var(--color-umich-maize);
+  color: rgb(var(--color-text-title));
 }
 
 .about-column p {
@@ -213,7 +221,7 @@ body {
 .contact-hero {
   height: 85vh;
   background-image:
-    linear-gradient(to top right, rgb(255, 203, 5, .15), rgb(255, 203, 5, .45)),
+    linear-gradient(to top right, rgb(var(--color-background-secondary), .15), rgb(var(--color-background-secondary), .45)),
     url("../images/angell_hall_sign.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -223,7 +231,7 @@ body {
 
 .contact-info-container {
   height: 100%;
-  background-color: rgb(30, 30, 30, .8);
+  background-color: rgb(0, 39, 76, .85);
   clip-path: polygon(46% 0, 100% 0, 100% 100%, 70% 100%);
   display: flex;
   flex-direction: column;
@@ -237,7 +245,7 @@ body {
 
 .contact-info {
   width: 40%;
-  color: var(--color-text-grey);
+  color: rgb(var(--color-text-secondary));
 }
 
 .contact-info h3 {
@@ -277,12 +285,12 @@ body {
 .coordinator img {
   height: 75px;
   border-radius: 50%;
-  border: 2px solid var(--color-text-grey);
+  border: 2px solid rgb(var(--color-text-secondary));
 }
 
 .coordinator p {
   padding-left: 10px;
-  color: var(--color-text-grey);
+  color: rgb(var(--color-text-secondary));
 }
 
 /* --------------------------------------------- */
