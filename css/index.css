@@ -229,7 +229,7 @@ body {
 
 .contact-hero {
   background-image:
-    linear-gradient(to top right, rgb(var(--color-background-secondary), .15), rgb(var(--color-background-secondary), .45)),
+    linear-gradient(to top right, rgb(255, 203, 5, .15), rgb(255, 203, 5, .45)),
     url("../images/angell_hall_sign.jpg");
   background-repeat: no-repeat;
   background-size: cover;
