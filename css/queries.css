@@ -2,13 +2,14 @@
 @media only screen and (max-width: 1200px){
   body {font-size: 19px;}
   .michigan-m-nav {height: 55%;}
-  .contact-info-container {clip-path: polygon(40% 0, 100% 0, 100% 100%, 63% 100%);}
+  .contact-info-container {clip-path: polygon(37% 0, 100% 0, 100% 100%, 60% 100%);}
   .contact-info {width: 50%}
   .coordinators {width: 45%}
 }
 
 @media only screen and (max-width: 992px){
   body {font-size: 16.5px;}
+  .contact-info-container {clip-path: polygon(35% 0, 100% 0, 100% 100%, 57% 100%);}
   .michigan-m-nav {height: 50%;}
 }
 
@@ -29,13 +30,15 @@
     padding-top: 40px;
   }
   .about-column p {padding-top: 20px;}
-
   .contact-info-container {
     align-items: center;
-    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 55%);
   }
   .contact-info {width: 80%;}
   .contact-info-container {padding-bottom: 30vh;}
   .coordinators {width: 80%;}
-  .coordinator {justify-content: flex-start;}
+  .coordinator {
+    justify-content: flex-end;
+    padding-right: 40px;
+  }
 }
