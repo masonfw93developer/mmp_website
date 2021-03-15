@@ -1,5 +1,5 @@
-/*
-@media only screen and (max-width: 1100px) {
+
+@media only screen and (max-width: 1200px) {
   body { font-size: 18px; }
   .michigan-m-nav { height: 52%; }
   .contact-info-container { clip-path: polygon(40% 0, 100% 0, 100% 100%, 63% 100%); }
@@ -8,7 +8,7 @@
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 992px) {
   body { font-size: 17px; }
   .michigan-m-nav { height: 45%; }
   .contact-info-container { clip-path: polygon(30% 0, 100% 0, 100% 100%, 53% 100%); }
@@ -17,8 +17,13 @@
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
   body { font-size: 17px; }
+  .main-hero {
+    background-image:
+      linear-gradient(to top right, rgb(var(--color-background-primary), .75), rgb(var(--color-background-primary), .92)),
+      url("../images/mobile/angell_hall_bw_mobile.jpg");
+  }
   .nav-bar { justify-content: flex-start; }
   .nav-links { display: none; }
   .michigan-m-nav { height: 45%; }
@@ -56,4 +61,3 @@
     justify-content: center;
   }
 }
-*/
