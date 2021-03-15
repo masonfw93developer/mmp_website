@@ -32,13 +32,16 @@
   .about-column p {padding-top: 20px;}
   .contact-info-container {
     align-items: center;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 55%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 65%);
   }
   .contact-info {width: 80%;}
   .contact-info-container {padding-bottom: 30vh;}
-  .coordinators {width: 80%;}
+  .coordinators {
+    width: 80%;
+    padding-bottom: 70px;
+  }
   .coordinator {
     justify-content: flex-end;
-    padding-right: 40px;
+    padding-right: 20px;
   }
 }
