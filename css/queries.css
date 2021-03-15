@@ -24,7 +24,7 @@
   .nav-links { display: none; }
   .michigan-m-nav { height: 45%; }
   .home-container h1 { font-size: 250%;}
-  .about-hero { height: 80vh; }
+  .about-hero { min-height: 1000px; }
   .about-hero h3 { font-size: 150%; }
   .about-mmp {
     padding-top: 30px;
