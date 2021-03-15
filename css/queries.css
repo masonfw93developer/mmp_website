@@ -39,7 +39,7 @@
     padding-left: 0 ;
     padding-top: 30px;
   }
-  .contact-info-container { clip-path: polygon(0 0, 100% 0, 100% 50%, 0 80%); }
+  .contact-info-container { clip-path: polygon(0 0, 100% 0, 100% 60%, 0 80%); }
   .contact-info { width: 90% }
   .coordinators { width: 90% }
 }
