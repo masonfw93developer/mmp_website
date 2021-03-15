@@ -1,63 +1,41 @@
 
-@media only screen and (max-width: 1200px) {
-  body { font-size: 18px; }
-  .michigan-m-nav { height: 52%; }
-  .contact-info-container { clip-path: polygon(40% 0, 100% 0, 100% 100%, 63% 100%); }
-  .contact-info { width: 50% }
-  .coordinators { width: 40% }
+@media only screen and (max-width: 1200px){
+  body {font-size: 19px;}
+  .michigan-m-nav {height: 55%;}
+  .contact-info-container {clip-path: polygon(40% 0, 100% 0, 100% 100%, 63% 100%);}
+  .contact-info {width: 50%}
+  .coordinators {width: 45%}
 }
 
-
-@media only screen and (max-width: 992px) {
-  body { font-size: 17px; }
-  .michigan-m-nav { height: 45%; }
-  .contact-info-container { clip-path: polygon(30% 0, 100% 0, 100% 100%, 53% 100%); }
-  .contact-info { width: 60% }
-  .coordinators { width: 50% }
+@media only screen and (max-width: 992px){
+  body {font-size: 16.5px;}
+  .michigan-m-nav {height: 50%;}
 }
 
-
-@media only screen and (max-width: 768px) {
-  body { font-size: 17px; }
-  .main-hero {
-    background-image:
-      linear-gradient(to top right, rgb(var(--color-background-primary), .75), rgb(var(--color-background-primary), .92)),
-      url("../images/mobile/angell_hall_bw_mobile.jpg");
+@media only screen and (max-width: 768px){
+  body {font-size: 16px;}
+  .home-container {
+    width: 400px;
+    align-items: center;
   }
-  .nav-bar { justify-content: flex-start; }
-  .nav-links { display: none; }
-  .michigan-m-nav { height: 45%; }
-  .home-container h1 { font-size: 250%;}
-  .about-hero { min-height: 1000px; }
-  .about-hero h3 { font-size: 150%; }
+  .nav-links {display: none;}
   .about-mmp {
-    padding-top: 30px;
+    padding-top: 10px;
     flex-direction: column;
     align-items: center;
   }
   .about-column {
-    width: 75%;
-    padding-top: 20px;
+    width: 80%;
+    padding-top: 40px;
   }
-  .about-column p {
-    padding-left: 0 ;
-    padding-top: 30px;
+  .about-column p {padding-top: 20px;}
+
+  .contact-info-container {
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 90%);
   }
-  .contact-info-container { clip-path: polygon(0 0, 100% 0, 100% 60%, 0 80%); }
-  .contact-info { width: 90% }
-  .coordinators { width: 90% }
-}
-
-
-
-@media only screen and (max-height: 1100px) {
-  .about-column p { font-size: 18px; }
-  .contact-info p { font-size: 18px}
-}
-
-@media only screen and (max-height: 950px) {
-  .home-container {
-    position: relative;
-    justify-content: center;
-  }
+  .contact-info {width: 80%;}
+  .contact-info-container {padding-bottom: 30vh;}
+  .coordinators {width: 80%;}
+  .coordinator {justify-content: flex-start;}
 }
