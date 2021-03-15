@@ -32,7 +32,7 @@ body {
   font-family: 'IBM Plex Serif';
   color: rgb(var(--color-text-secondary));
   background-image:
-    linear-gradient(to top right, rgb(var(--color-background-primary), .75), rgb(var(--color-background-primary), .92)),
+    linear-gradient(to top right, rgb(0, 39, 76, .75), rgb(0, 39, 76, .92)),
     url("../images/angell_hall_bw.jpg");
   background-repeat: no-repeat;
   background-size: cover;
