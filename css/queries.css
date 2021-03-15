@@ -32,9 +32,10 @@
   .about-column p {padding-top: 20px;}
   .contact-info-container {
     align-items: center;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 65%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 85%);
   }
   .contact-info {width: 80%;}
+  .contact-info p {padding-right: 20px;}
   .contact-info-container {padding-bottom: 30vh;}
   .coordinators {
     width: 80%;
