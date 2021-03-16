@@ -36,7 +36,7 @@
   .contact-hero {
     background-image:
       linear-gradient(to top right, rgb(255, 203, 5, .5), rgb(255, 203, 5, .65)),
-      url("../images/angell_hall_sign_2.jpg");
+      url("../images/angell_hall_sign.jpg");
   }
   .contact-info-container {
     background-color: rgb(0, 39, 76, .85);
