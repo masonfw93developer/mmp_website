@@ -23,8 +23,28 @@ $(document).ready(function() {
     $('html, body').animate({scrollTop: $('.js--section-about').offset().top - 70}, 1000)
   });
   $('.js--scroll-to-contact').click(function(){
-    $('html, body').animate({scrollTop: $('.js--section-contact').offset().top}, 1000)
+    $('html, body').animate({scrollTop: $('.js--section-contact').offset().top - 69}, 1000)
   });
 
+
+  /*  Mobile Nav  */
+  $('.responsive-nav').click(function(){
+    $('.mobile-nav-container').show()
+  });
+  $('.exit-mobile-nav').click(function(){
+    $('.mobile-nav-container').hide()
+  });
+  $('.js--mobile-scroll-to-home').click(function(){
+    $('.mobile-nav-container').hide();
+    $('html, body').animate({scrollTop: $('.js--section-home').offset().top}, 1000);
+  });
+  $('.js--mobile-scroll-to-about').click(function(){
+    $('.mobile-nav-container').hide();
+    $('html, body').animate({scrollTop: $('.js--section-about').offset().top - 70}, 1000)
+  });
+  $('.js--mobile-scroll-to-contact').click(function(){
+    $('.mobile-nav-container').hide();
+    $('html, body').animate({scrollTop: $('.js--section-contact').offset().top - 69}, 1000)
+  });
 
 });
